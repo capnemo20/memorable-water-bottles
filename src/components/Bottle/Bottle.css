@@ -1,19 +1,35 @@
-.bottle-card{
-    height: 200px;
-    width: 280px;
-    padding: 10px;
-    
-    border: 1px solid rgb(199, 111, 111);
-    border-radius: 10px;
-    display: grid;
-    
-    grid-template-rows: repeat(3, 1fr);
-    
-
+.bottle-card {
+  height: auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+  border: 2px solid rgb(175, 235, 175);
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.bottle-card img{
-    height: 100px;
-    width: 100px;
-    
+.bottle-card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.bottle-card h3,
+.bottle-card p{
+    margin:0;
+}
+.bottle-card button {
+  background-color: #f3e8e8;
+  color: rgb(15, 4, 4);
+  border: 2px solid rgb(169, 212, 234);
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: auto;
+  
+}
+.bottle-card button:hover {
+  background-color: #0088cc;
 }
