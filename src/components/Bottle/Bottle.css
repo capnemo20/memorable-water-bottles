@@ -1,0 +1,19 @@
+.bottle-card{
+    height: 200px;
+    width: 280px;
+    padding: 10px;
+    
+    border: 1px solid rgb(199, 111, 111);
+    border-radius: 10px;
+    display: grid;
+    
+    grid-template-rows: repeat(3, 1fr);
+    
+
+}
+
+.bottle-card img{
+    height: 100px;
+    width: 100px;
+    
+}
